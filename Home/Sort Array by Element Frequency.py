@@ -1,28 +1,5 @@
-import collections
-
-
-# def frequency_sort(items):
-#     sorted_items = list()
-#     for i in items:
-#         counter = items.count(i)
-#         if i in sorted_items:
-#             sorted_items.insert(sorted_items.index(i) + 1, i)
-#         else:
-#             sorted_items.append(i)
-#     return sorted_items
-
-# def frequency_sort(items):
-#     frequency = collections.Counter(items)
-#     sorted_list = []
-#     for i in frequency:
-#         for j in range(frequency[i]):
-#             sorted_list.append(i)
-#     return sorted_list
-
-
 def frequency_sort(items):
-    # your code here
-    return sorted(items, key = lambda x: (-items.count(x), items.index(x)))
+    return sorted(items, key=lambda x: (-items.count(x), items.index(x)))
 
 
 # def frequency_sort(items):

@@ -1,7 +1,3 @@
-# Your optional code here
-# You can import some modules or create additional functions
-
-
 def checkio(data: list) -> list:
     none_unique = list()
     for i in data:
